@@ -52,6 +52,10 @@
       <HintPath>DLL\Redzen.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="spine-unity">
+      <HintPath>DLL\spine-unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -103,7 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameData\CharacterFeature_Patch.cs" />
+    <Compile Include="GameDataPatch\UI_Combat_Patches.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\ConfigMergeHelper.cs" />

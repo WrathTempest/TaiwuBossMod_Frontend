@@ -19,7 +19,7 @@ namespace TaiwuBossMod_Frontend.Utils
 {
     internal class ConfigMergeHelper : MonoBehaviour
     {
-        public float DelaySeconds = 3f; // adjust as needed
+        public float DelaySeconds = 0.05f; // adjust as needed
 
         // Call this to start the delayed merge
         public void StartMerge()
